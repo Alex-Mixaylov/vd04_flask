@@ -1,4 +1,15 @@
-.iframe {
-    align = "center"
+.iframe-container {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+}
 
+.iframe {
+    width: 100%; /* Укажите нужную ширину */
+}
+
+.banner {
+    margin: 0; /* Убираем отступы */
+}
+.banner img {
+    width: 100%; /* Устанавливаем ширину 100% */
 }
